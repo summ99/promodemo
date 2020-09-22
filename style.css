@@ -1,0 +1,31 @@
+body {
+  background-image: url("underwater1.jpg"); /* using an image as the background*/
+  background-size: cover; /* making the backgroudimage fit the whole screen */
+  color: #fff; /* white font color for all text*/
+  font-family: serif; /* serif font for all non-title text */
+  margin: 0px;
+  padding: 0px;
+
+}
+h1{
+  font-family: cursive; /* cursive font for name of film */
+  font-size: 300% /* big title */
+}
+.mainContainer{
+  padding: 140px;
+}
+.subContainer {
+  padding:10px;
+  border: 4px solid #fff;
+  margin-bottom: 40px;
+}
+.review {
+  font-style: italic; /* italice the reviews*/
+}
+#trailer {
+  margin: 0 auto; width: 550px /* to center video within container*/
+}
+#finalParagraph {
+  border-top: 2px solid #bbb;
+  padding-top: 40 px;
+}
